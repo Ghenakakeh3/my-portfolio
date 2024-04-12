@@ -31,7 +31,7 @@ const Contact = () => {
      form:form.nsme,
      to_name:"ghena ka",
      form_email:form.email,
-     to_email:"ghenakakeh@gmail.com",
+     to_email:"ghenakakeh2@gmail.com",
      message:form.message
     }
     ,"hJ3ev8HFBxLbMtw2Q"

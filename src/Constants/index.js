@@ -5,6 +5,7 @@ import {
     curd,
     portfolio,
     robots,
+    med_sal,
     travel,
     Hangman_Game,
     cyborg,
@@ -50,7 +51,8 @@ import {
     problem_solving,
     algorithm,
     kasper,
-    remostart
+    remostart,
+    Med_Sal_dashboard    
 
 
 
@@ -135,10 +137,10 @@ import {
 
       },
 
-      //     {
-      //   name: "Redux Toolkit",
-      //   icon: redux,
-      // },
+          {
+        name: "Redux Toolkit",
+        icon: redux,
+      },
       // {
       //   name:"jQuery",
       //   icon:jquery,
@@ -147,10 +149,10 @@ import {
         name: "React JS",
         icon: reactjs,
       },
-        // {
-      //   name: "TypeScript",
-      //   icon: typescript,
-      // },
+        {
+        name: "TypeScript",
+        icon: typescript,
+      },
 
      
       // {
@@ -343,7 +345,52 @@ import {
   ];
   
   const projects = [
-  
+    {
+      name: "Med Sal website",
+      description:
+        "",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+   
+        {
+          name: "f",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: med_sal,
+      source_code_link: "https://github.com/",
+      Live_Demo:"https://ghenakakeh3.github.io/Med--Sal/"
+    },
+    {
+      name: "Med Sal Dashboard",
+      description:
+        "",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+   
+        {
+          name: "f",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Med_Sal_dashboard,
+      source_code_link: "https://github.com/",
+      Live_Demo:"https://ghenakakeh3.github.io/Med--Sal/dashboard"
+    },
     {
       name: "Robot website",
       description:

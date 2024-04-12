@@ -35,7 +35,7 @@ const ProjectCard =({index, name,description,tags,image,source_code_link,Live_De
    className='bg-tertiary  rounded-2xl sm:w-[360px] w-full '
      >
       <div className="relative w-full h-[230px] ">
-         <img src={image} alt={name} className="w-full h-full object-cover rounded-xl  "/>
+         <img src={image} alt={name} className=" h-full  rounded-xl  "/>
          <div className="absolute inset-0 flex justify-end card-img_hover">
           <div 
           onClick={()=>{
@@ -57,7 +57,7 @@ const ProjectCard =({index, name,description,tags,image,source_code_link,Live_De
 
       </div>
       <div className="mt-4 flex flex-wrap gap-3 px-4">
-      {
+      {/* {
         tags.map((tag) => {
           return(
             <p key={tag.name} className={`${tag.color}`}>
@@ -68,7 +68,7 @@ const ProjectCard =({index, name,description,tags,image,source_code_link,Live_De
           
         }
         )
-      }
+      } */}
 
       </div>
       <div className="flex justify-between px-4  py-4">
