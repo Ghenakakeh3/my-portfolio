@@ -4,10 +4,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://ghenakakeh2.github.io/my-portfolio",
+  "homepage":"https://Ghenakakeh3.github.io/my-portfolio/",
+  
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "start": "vite",
