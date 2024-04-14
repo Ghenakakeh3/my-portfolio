@@ -33,11 +33,11 @@ const Footer = () => {
 
         </ul>
         <div className="social-media flex justify-center items-center gap-10 mt-10">
-      <a href="https://github.com/ghenakakeh2"><img src={githubsvg} alt="" className=' w-7 h-7  cursor-pointer' /></a>
+      <a href="https://github.com/Ghenakakeh3"><img src={githubsvg} alt="" className=' w-7 h-7  cursor-pointer' /></a>
       
       <a href=""> <img src={facebook} alt="" className=' w-7 h-7 cursor-pointer' /> </a>
       {/* <img src={instgram} alt="" className='w-5 h-5'/> */}
-     <a href="https://www.linkedin.com/in/ghena-kakeh-76511b26b">  <img src={linkedin} alt="" className=' w-7 h-7 cursor-pointer'/> </a>
+     <a href="https://www.linkedin.com/in/ghena-kakeh-364a4a303/">  <img src={linkedin} alt="" className=' w-7 h-7 cursor-pointer'/> </a>
       
      
 
