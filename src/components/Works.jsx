@@ -21,7 +21,7 @@ import { FreeMode, Pagination } from 'swiper/modules';
 
 const ProjectCard =({index, name,description,tags,image,source_code_link,Live_Demo}) => {
   return(
-    <motion.dev variants={fadeIn("up","spring", index * 0.5 , 0.75)}>
+    // <motion.dev variants={fadeIn("up","spring", index * 0.5 , 0.75)} className='bg-whi'>
      <Tilt
    options={
     {
@@ -32,7 +32,7 @@ const ProjectCard =({index, name,description,tags,image,source_code_link,Live_De
     }
 
    }
-   className='bg-tertiary  rounded-2xl sm:w-[360px] w-full '
+   className='bg-tertiary  rounded-2xl sm:w-[360px] w-full h-[420px] '
      >
       <div className="relative w-full h-[230px] ">
          <img src={image} alt={name} className=" h-full  rounded-xl  "/>
@@ -71,22 +71,24 @@ const ProjectCard =({index, name,description,tags,image,source_code_link,Live_De
       } */}
 
       </div>
+      {Live_Demo && 
       <div className="flex justify-between px-4  py-4">
-       <button className="px-5 py-2 rounded-md border-[1px] border-secondary border-solid"  onClick={()=>{
-            window.open(Live_Demo,"_blank")
+      <button className="px-5 py-2 rounded-md border-[1px] border-secondary border-solid"  onClick={()=>{
+           window.open(Live_Demo,"_blank")
 
 
-          }} > Demo</button>
-       <button className="px-5 py-2 rounded-md border-[1px] border-secondary border-solid"   onClick={()=>{
-            window.open(source_code_link,"_blank")
+         }} > Demo</button>
+      <button className="px-5 py-2 rounded-md border-[1px] border-secondary border-solid"   onClick={()=>{
+           window.open(source_code_link,"_blank")
 
 
-          }}>Source code</button>
+         }}>Source code</button>
 
-      </div>
+     </div>
+      }
 
      </Tilt>
-    </motion.dev>
+  //  </motion.dev>
   )
 }
 
@@ -102,9 +104,9 @@ const Works = () => {
 
       </motion.div>
 
-    <div className="mt-20 flex flex-wrap gap-7">
-    <Swiper
-        // slidesPerView={3}
+    <div className="mt-20 flex flex-wrap gap-7  ">
+    {/* <Swiper
+        slidesPerView={3}
         breakpoints={{
           0: {
             slidesPerView: 1,
@@ -128,24 +130,27 @@ const Works = () => {
         }}
         modules={[FreeMode, Pagination]}
         className="mySwiper "
-      >
+      > */}
       {
         projects.map((project,index) => {
+          console.log(project)
           return(
+          <div className="">
             <SwiperSlide className="mb-16 " >
 
-             <ProjectCard 
-             key={`project-${index}`}
-             index={index}
-             {...project}
-             />
-            </SwiperSlide>
+<ProjectCard 
+key={`project-${index}`}
+index={index}
+{...project}
+/>
+</SwiperSlide>
+          </div>
 
           )
         }
         )
       }
-         </Swiper>
+         {/* </Swiper> */}
 
     </div>
 

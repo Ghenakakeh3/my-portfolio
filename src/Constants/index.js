@@ -52,7 +52,10 @@ import {
     algorithm,
     kasper,
     remostart,
-    Med_Sal_dashboard    
+    Med_Sal_dashboard    ,
+    MadSolution,
+    abohamdi,
+    automatically
 
 
 
@@ -274,14 +277,26 @@ import {
       iconBg: "#383E56",
       date: "March 2019",
       points: [
-        "I am in my graduation year and about to finish my studies at the College of Informatics Engineering",
+        "I finished my studies at the Faculty of Information Engineering, University of Aleppo.",
+        "During my studies, I gained a lot of information and skills in the field of software engineering."
        
       ],
     },
     {
-      title: "Trainee at Remostart Company",
-      company_name: "Remostart",
-      icon: remostart,
+      title: "Front-end Developer",
+      company_name: "Ulutech",
+      icon: '',
+      iconBg: "#E6DEDD",
+      date: "",
+      points: [
+        "I had the opportunity to work with a distinguished team of professional designers and programmers to develop my skills in the field of front-end. I added many features and improved the performance of many projects, including Abo Hamdi ,Automatically,FID Resturant",
+      
+      ],
+    },
+    {
+      title: "Trainee at MadSolution Company",
+      company_name: "MadSolution",
+      icon: MadSolution,
       iconBg: "#E6DEDD",
       date: "Jan 2023",
       points: [
@@ -344,7 +359,55 @@ import {
     },
   ];
   
-  const projects = [
+  const projects =
+   [
+    {
+      name: "automatically dashboard",
+      description:
+        "",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+   
+        {
+          name: "f",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: automatically,
+      source_code_link: "",
+      Live_Demo:""
+    },
+    {
+      name: "Abo Hamdi",
+      description:
+        "",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+   
+        {
+          name: "f",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: abohamdi,
+      source_code_link: "",
+      Live_Demo:""
+    },
+    
     {
       name: "Med Sal website",
       description:

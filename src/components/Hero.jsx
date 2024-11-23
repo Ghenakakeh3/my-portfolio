@@ -2,7 +2,7 @@ import {motion} from 'framer-motion'
 import { styles } from '../Styles'
 import { ComputersCanvas } from './canvas'
 // import cv from '../assets/'
-import cv from '../assets/GHENA-KAKEH-CV.pdf'
+import cv from '../assets/GHENA-KAKEH.pdf'
 
 const Hero = () => {
   return (

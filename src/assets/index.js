@@ -27,7 +27,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import MadSolution from "./MadSolution.png"
 import logo_collage from './company/logo univircity.png'
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -61,7 +61,8 @@ import remostart from './company/remostart.png'
 import githubsvg from './Github.svg'
 import linkedin from './Linkedin.svg'
 import facebook from './Facebook.svg'
-
+import abohamdi from "./abohamdi.png"
+import automatically from "./automatically.png"
 
 
 
@@ -131,7 +132,10 @@ export {
   githubsvg,
   linkedin,
   facebook,
-  Med_Sal_dashboard
+  Med_Sal_dashboard,
+  MadSolution,
+  abohamdi,
+  automatically
 
 
 

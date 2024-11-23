@@ -37,7 +37,7 @@ const Footer = () => {
       
       <a href=""> <img src={facebook} alt="" className=' w-7 h-7 cursor-pointer' /> </a>
       {/* <img src={instgram} alt="" className='w-5 h-5'/> */}
-     <a href="https://www.linkedin.com/in/ghena-kakeh-364a4a303/">  <img src={linkedin} alt="" className=' w-7 h-7 cursor-pointer'/> </a>
+     <a href="https://www.linkedin.com/in/ghena-kakeh-77322833a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">  <img src={linkedin} alt="" className=' w-7 h-7 cursor-pointer'/> </a>
       
      
 
